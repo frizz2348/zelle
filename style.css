@@ -7,7 +7,7 @@ body {
 .money-sent {
     color: rgb(100, 90, 90);
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     padding-bottom: 10px;
     padding-top: 40px;
     border-bottom: 2px solid rgba(100, 90, 90, 0.466);
@@ -15,12 +15,12 @@ body {
 
 #amount, #nama {
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     padding-bottom: 10px;
 }
 
 #j {
-    background-color: green;
+    background-color: rgb(39, 124, 39);
     text-align: center;
     padding: 30px;
     font-size: 40px;
@@ -37,11 +37,11 @@ body {
 }
 
 footer {
-    background-color: #2758e9;
+    background-color: #27355f;
     color: aliceblue;
     padding: .3px 2px;
     text-align: center;
-    margin-top: 260px;
+    margin-top: 230px;
 }
 
 .footer {
