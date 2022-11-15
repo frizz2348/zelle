@@ -1,0 +1,75 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+a {
+    background-color: #27355f;
+    color: snow;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.cancel {
+    text-decoration: underline;
+}
+
+.main-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+
+
+.pending {
+    text-transform: uppercase;
+}
+
+
+.pend {
+
+    width: 49.7%;
+    background-color: rgba(180, 169, 169, 0.589);
+    display: inline-block;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.past {
+    background-color: rgb(255, 255, 255);
+    width: 49.7%;
+    display: inline-block;
+    float: right;
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.payment {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    margin: 14px 15px 10px;
+    padding: 0 10px 10px 10px;
+
+    
+}
+
+
+.j {
+    background-color: rgb(39, 124, 39);
+    padding: 11px;
+    font-size: 16px;
+    color: aliceblue;
+    border-radius: 50%;
+    width: 20px;
+    margin: 20px 20px 0 0;
+}
+
+.abbr {
+    margin-top: 40px;
+}
