@@ -7,6 +7,10 @@ let abbr2 = document.getElementById("abbr2");
 let name2 = document.getElementById("name2");
 let date2 = document.getElementById("date2");
 let amount2 = document.getElementById("amount2");
+let abbr3 = document.getElementById("abbr3");
+let name3 = document.getElementById("name3");
+let date3 = document.getElementById("date3");
+let amount3 = document.getElementById("amount3");
 
 
 
@@ -24,3 +28,7 @@ abbr2.innerHTML = prompt('What\'s the abbreviation?');
 name2.innerHTML = prompt('What\'s the name?');
 date2.innerHTML = prompt('What\'s today\'s date?');
 amount2.innerHTML = prompt('What\'s the amount?');
+abbr3.innerHTML = prompt('What\'s the abbreviation?');
+name3.innerHTML = prompt('What\'s the name?');
+date3.innerHTML = prompt('What\'s today\'s date?');
+amount3.innerHTML = prompt('What\'s the amount?');
