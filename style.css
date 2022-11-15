@@ -41,9 +41,17 @@ footer {
     color: aliceblue;
     padding: .3px 2px;
     text-align: center;
-    margin-top: 230px;
+    margin-top: 200px;
 }
 
 .footer {
     font-weight: 400;
+}
+
+a {
+    background-color: #27355f;
+    color: snow;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
 }
