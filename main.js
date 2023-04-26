@@ -1,3 +1,4 @@
+'use strict';
 
 const amt = document.querySelector(".amt");
 const abbr = document.querySelector(".abbr");
@@ -13,14 +14,9 @@ name2.textContent.toLowerCase();
 amt.textContent = prompt('Amount?');
 
 let namesI = prompt('What\'s the name?');
-for (i of names) {
+for (const i of names) {
     let it = i.textContent = namesI.trim();
     const firstLetter = [...it].shift().toUpperCase();
     abbr.textContent = firstLetter;
     i.textContent = firstLetter + it.slice(1).toLowerCase();
 };
-
-
-
-
-
