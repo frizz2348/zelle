@@ -1,16 +1,24 @@
 
-let amount = document.getElementById("amount");
-let nama = document.getElementById("nama");
-let j = document.getElementById("j");
-let namk = document.getElementById("namk");
+const amt = document.querySelector(".amt");
+const abbr = document.querySelector(".abbr");
+const names = document.querySelectorAll(".names");
+const name1 = document.querySelector(".name1");
+const name2 = document.querySelector(".name2");
 
-amount.innerHTML = prompt('What\'s the amount');
+name1.textContent.toLowerCase(); 
+name2.textContent.toLowerCase(); 
 
-j.innerHTML = prompt('What\'s the abbreviation');
 
-nama.innerHTML = prompt('What\'s the name');
 
-namk.innerHTML = prompt('What\'s the name?');
+amt.textContent = prompt('Amount?');
+
+let namesI = prompt('What\'s the name?');
+for (i of names) {
+    let it = i.textContent = namesI.trim();
+    const firstLetter = [...it].shift().toUpperCase();
+    abbr.textContent = firstLetter;
+    i.textContent = firstLetter + it.slice(1).toLowerCase();
+};
 
 
 
