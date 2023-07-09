@@ -3,6 +3,10 @@ body {
     color: black;
 }
 
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
 a {
     background-color: #27355f;
     color: snow;
